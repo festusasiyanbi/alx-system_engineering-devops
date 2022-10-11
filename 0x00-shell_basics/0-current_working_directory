@@ -1,1 +1,3 @@
-my first shell devops
+#!/bin/bash
+pwd
+
