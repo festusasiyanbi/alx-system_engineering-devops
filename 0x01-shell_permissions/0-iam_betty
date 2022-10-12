@@ -1,0 +1,2 @@
+#!/bin/bash
+iam betty
