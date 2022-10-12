@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'NR % 2 {print} !(NR % 2) {print | "grep pattern | rev" }' file.fasta
+paste -d, -- | cut -d, -f1
