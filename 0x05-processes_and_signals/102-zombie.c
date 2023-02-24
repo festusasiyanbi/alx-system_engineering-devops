@@ -11,7 +11,7 @@ int infinite_while(void)
 {
 	while(1)
 	{
-		sleep();
+		sleep(1);
 	}
 	return (0);
 }
