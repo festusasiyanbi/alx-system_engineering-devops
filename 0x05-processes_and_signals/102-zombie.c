@@ -9,7 +9,7 @@
 
 int infinite_while(void)
 {
-	while(1)
+	while (1)
 	{
 		sleep(1);
 	}
@@ -25,6 +25,7 @@ int main(void)
 {
 	int children_processes = 0;
 	pid_t pid;
+
 	while (children_processes < 5)
 	{
 		pid = fork();
